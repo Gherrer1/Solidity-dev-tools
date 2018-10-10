@@ -1,0 +1,23 @@
+{
+  "name": "solidity-dev-tools",
+  "version": "1.0.0",
+  "description": "Tools to develop, compile, and deploy Solidity code to the Ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gherrer1/Solidity-dev-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gherrer1/Solidity-dev-tools/issues"
+  },
+  "homepage": "https://github.com/Gherrer1/Solidity-dev-tools#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
+}
