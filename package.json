@@ -4,7 +4,7 @@
   "description": "Tools to develop, compile, and deploy Solidity code to the Ethereum blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test -w"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Gherrer1/Solidity-dev-tools#readme",
   "devDependencies": {},
   "dependencies": {
-    "solc": "^0.4.25"
+    "ganache-cli": "^6.0.3",
+    "mocha": "^4.0.1",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.26"
   }
 }
